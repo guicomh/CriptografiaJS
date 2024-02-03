@@ -1,12 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif ;
     background-color: #ecf0f1;
-    color: #34495e;
-    height: 100vh;
-    overflow: hidden;
+    color: #000;
 }
+
 
 header {
     background-color: #3498db;
@@ -17,17 +16,41 @@ header {
     border: 5px solid #000000; 
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100% - 60px);
-    border: 5px solid #000000; 
-    margin: 5px; 
-    padding: 5px; 
+.github-ico, .link-ico {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 0 10px;
+    text-align: center;
 }
 
+.github-ico {
+    background-image: url(Img/github.png);
+    text-align: center;
+}
+
+.link-ico {
+    background-image: url(Img/linkd.png);
+    text-align: center;
+}
+
+.eu-foto {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    background-size: cover;
+    text-align: center;
+}
+
+section {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #000000; 
+}
 label {
     font-size: 18px;
     margin-bottom: 8px;
@@ -68,5 +91,6 @@ textarea {
     border: 1px solid #bdc3c7;
     border-radius: 4px;
 }
+
 
 
